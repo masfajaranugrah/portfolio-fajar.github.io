@@ -108,6 +108,7 @@ section{padding: 0;}
 
 /* Text color */
 .text-yellow {color: #47B5FF;}
+.text-judul {color: #47B5FF; text-shadow: 6px 0px #fff;}
 .text-grey {color: #a6a6a6;}
 .text-white {color: #ffffff;}
 
@@ -645,7 +646,7 @@ header a.logo img {
 .slider-image {
     position: relative;
     margin: 0 auto -80px auto;
-    top: 100px;
+    top: 150px;
     width: 70%;
 }
 
@@ -1345,7 +1346,8 @@ header a.logo img {
 }
 .cases-line {
     position: absolute;
-    background: #ffffff;
+    background: #47B5FF;
+    box-shadow: 1px 1px 15px 1px #47B5FF;
 }
 .top {
     top: 15px;
@@ -1891,6 +1893,9 @@ header a.logo img {
     p {font-size: 14px;line-height: 20px;}
     .skills, .timeline-bg, .portfolio-bg,.sertifikat-bg, .testimonial-bg, .contact-bg {height: auto;}
 
+    .text-judul {color: #47B5FF; text-shadow: 5px 0px #fff;}
+
+
     /* Nav */
     header a.logo img {
         max-width: 30px;
@@ -1929,7 +1934,7 @@ header a.logo img {
 
     /* Slider */
     .slider-area .slider-content {
-        margin-top: 30px;
+        margin-top: -47px;
     }
     .content-para {
         padding: 0 10px;
